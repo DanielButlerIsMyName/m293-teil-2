@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="description" content="Get in touch with gibb Bern." />
+  <meta name="author" content="gibb Bern" />
+  <title>Contact Us - gibb Bern</title>
+  <!-- Favicon-->
+  <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+  <!-- Bootstrap icons-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
+  <!-- Core theme CSS (includes Bootstrap)-->
+  <link href="css/styles.css" rel="stylesheet" />
+</head>
+<body>
+<!-- Responsive navbar-->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container px-5">
+    <a class="navbar-brand" href="index.html">gibb Bern</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+        <li class="nav-item"><a class="nav-link" href="index.html#courses">Courses</a></li>
+        <li class="nav-item"><a class="nav-link active" aria-current="page" href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Contact form section-->
+<section class="bg-light py-5" id="contact">
+  <div class="container px-5 my-5">
+    <div class="text-center mb-5">
+      <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-envelope"></i></div>
+      <h2 class="fw-bolder">Get in touch</h2>
+      <p class="lead mb-0">We'd love to hear from you. Reach out for more information about our courses and admissions process.</p>
+    </div>
+
+<!--    &lt;!&ndash; Video Section &ndash;&gt;-->
+<!--    <div class="row gx-5 justify-content-center mb-5">-->
+<!--      <div class="col-lg-8 text-center">-->
+<!--        &lt;!&ndash; Embed a YouTube video &ndash;&gt;-->
+<!--        <iframe width="100%" height="400" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
+<!--      </div>-->
+<!--    </div>-->
+
+    <!-- Contact form section -->
+    <div class="row gx-5 justify-content-center">
+      <div class="col-lg-6">
+        <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+          <div class="form-floating mb-3">
+            <input class="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
+            <label for="name">Full name</label>
+            <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
+          </div>
+          <div class="form-floating mb-3">
+            <input class="form-control" id="email" type="email" placeholder="name@example.com" data-sb-validations="required,email" />
+            <label for="email">Email address</label>
+            <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
+            <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
+          </div>
+          <div class="form-floating mb-3">
+            <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890" data-sb-validations="required" />
+            <label for="phone">Phone number</label>
+            <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
+          </div>
+          <div class="form-floating mb-3">
+            <textarea class="form-control" id="message" placeholder="Enter your message here..." style="height: 10rem" data-sb-validations="required"></textarea>
+            <label for="message">Message</label>
+            <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
+          </div>
+          <div class="d-grid">
+            <button class="btn btn-primary btn-lg" id="submitButton" type="submit">Submit</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer-->
+<footer class="py-5 bg-dark">
+  <div class="container px-5"><p class="m-0 text-center text-white">© gibb Bern 2024. All Rights Reserved.</p></div>
+</footer>
+
+<!-- Bootstrap core JS-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Core theme JS-->
+<script src="js/scripts.js"></script>
+</body>
+</html>
